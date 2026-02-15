@@ -1,0 +1,113 @@
+.register-container {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.register-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 100%;
+    max-width: 450px;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.register-card h2 {
+    text-align: center;
+    color: #333;
+    margin: 0 0 30px 0;
+    font-size: 1.8rem;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    color: #555;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+.form-group input {
+    padding: 12px 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    background-color: #f8f9fa;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #f5576c;
+    background-color: white;
+}
+
+.register-btn {
+    padding: 12px;
+    background-color: #f5576c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.register-btn:hover {
+    background-color: #d63a52;
+}
+
+.register-btn:active {
+    transform: scale(0.98);
+}
+
+.register-footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.register-footer a,
+.register-footer button {
+    color: #f5576c;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-weight: 600;
+}
+
+.register-footer a:hover,
+.register-footer button:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .register-card {
+        padding: 30px 20px;
+    }
+
+    .register-card h2 {
+        font-size: 1.5rem;
+    }
+}
