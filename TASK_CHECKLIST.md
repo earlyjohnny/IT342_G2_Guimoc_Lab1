@@ -5,11 +5,11 @@
 [x] POST /api/auth/register with BCrypt [commit: 70ef67a]
 [x] POST /api/auth/login [commit: 70ef67a]
 [x] GET /api/user/me (protected) [commit: 70ef67a]
-[x] ReactJS: Register Page [commit: [LATEST_COMMIT_HASH]]
-[x] ReactJS: Login Page [commit: [LATEST_COMMIT_HASH]]
-[x] ReactJS: Dashboard/Profile Page [commit: [LATEST_COMMIT_HASH]]
-[x] ReactJS: Logout functionality [commit: [LATEST_COMMIT_HASH]]
-[x] Update FRS PDF with Web UI Screenshots [commit: [LATEST_COMMIT_HASH]]
+[x] ReactJS: Register Page [commit: [c1167c9]]
+[x] ReactJS: Login Page [commit: [c1167c9]]
+[x] ReactJS: Dashboard/Profile Page [commit: [c1167c9]]
+[x] ReactJS: Logout functionality [commit: [c1167c9]]
+[x] Update FRS PDF with Web UI Screenshots [commit: [c1167c9]]
 
 ## IN-PROGRESS
 (None)
