@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.UserAuth" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="RoundedInput">
+        <item name="android:background">@drawable/input_background</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

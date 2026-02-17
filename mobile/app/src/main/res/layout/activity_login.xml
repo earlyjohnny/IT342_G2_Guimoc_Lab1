@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg_login_dashboard">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp" android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="12dp" app:cardElevation="15dp">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="40dp">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Login" android:textSize="28sp" android:textStyle="bold"
+                android:textColor="#333333" android:layout_gravity="center" android:layout_marginBottom="30dp"/>
+
+            <EditText android:id="@+id/etUsername" android:layout_width="match_parent" android:layout_height="50dp"
+                android:hint="Username" android:background="@drawable/input_background" android:paddingLeft="16dp" android:layout_marginBottom="20dp"/>
+
+            <EditText android:id="@+id/etPassword" android:layout_width="match_parent" android:layout_height="50dp"
+                android:hint="Password" android:inputType="textPassword" android:background="@drawable/input_background" android:paddingLeft="16dp" android:layout_marginBottom="20dp"/>
+
+            <Button android:id="@+id/btnLogin" android:layout_width="match_parent" android:layout_height="50dp"
+                android:text="Login" android:backgroundTint="#667eea" android:textColor="#FFFFFF" android:textStyle="bold"/>
+
+            <TextView android:id="@+id/tvToRegister" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Don't have an account? Register here" android:layout_gravity="center" android:layout_marginTop="20dp" android:textColor="#667eea" android:textStyle="bold"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

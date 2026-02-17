@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg_login_dashboard">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="340dp" android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="12dp" app:cardElevation="10dp">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="40dp">
+
+            <TextView android:id="@+id/tvWelcome" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Welcome, Earl John!" android:textSize="32sp" android:textStyle="bold" android:textColor="#333"/>
+
+            <TextView android:id="@+id/tvEmail" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Email: example@gmail.com" android:textSize="18sp" android:layout_marginTop="15dp" android:textColor="#666"/>
+
+            <TextView android:id="@+id/tvUsername" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Username: EarlyJohnny" android:textSize="18sp" android:layout_marginTop="15dp" android:textColor="#666"/>
+
+            <Button android:id="@+id/btnLogout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Logout" android:backgroundTint="#667eea" android:textColor="#FFFFFF" android:layout_marginTop="30dp" android:padding="12dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
